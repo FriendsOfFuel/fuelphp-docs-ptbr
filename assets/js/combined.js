@@ -345,29 +345,29 @@ var pane_names = {
 };
 
 panes.main = {
-	"Basic": {
+	"Básico": {
 		"Home":			"index.html",
-		"Requirements":	"requirements.html",
-		"License":		"license.html",
-		"Contribute":	"contribute.html",
-		"Credits":		"credits.html"
+		"Requisitos":	"requirements.html",
+		"Licença":		"license.html",
+		"Contribuir":	"contribute.html",
+		"Créditos":		"credits.html"
 	},
-	"Installation": {
-		"Instructions":			"installation/instructions.html",
+	"Instalação": {
+		"Introduções":			"installation/instructions.html",
 		"Download":				"installation/download.html",
 		"Upgrade":				"installation/upgrade.html",
-		"Tutorials":			"installation/tutorials.html",
-		"Troubleshooting":		"installation/troubleshooting.html"
+		"Tutoriais":			"installation/tutorials.html",
+		"Solução de Problemas":		"installation/troubleshooting.html"
 	},
-	"General": {
+	"Geral": {
 		"Classes": {
-			"Introduction":		"general/classes.html",
-			"Extending Core":	"general/extending_core.html"
+			"Introdução":		"general/classes.html",
+			"Estendendo Core":	"general/extending_core.html"
 		},
-		"Coding Standards":	"general/coding_standards.html",
-		"Configuration":	"general/configuration.html",
-		"Constants":		"general/constants.html",
-		"Environments":		"general/environments.html",
+		"Padrões de Codificação":	"general/coding_standards.html",
+		"Configuração":	"general/configuration.html",
+		"Constantes":		"general/constants.html",
+		"Ambientes":		"general/environments.html",
 		"Model-View-Controller":	"general/mvc.html",
 		"Models":			"general/models.html",
 		"Views":			"general/views.html",
@@ -390,7 +390,7 @@ panes.main = {
 		"Profiling":		"general/profiling.html",
 	},
 	"Third party": {
-		"Introduction":		"vendor/intro.html",
+		"Introdução":		"vendor/intro.html",
 		"htmLawed":			"vendor/htmlawed.html",
 		"Markdown":			"vendor/markdown.html",
 		"PHPQuickProfiler":	"vendor/phpquickprofiler.html",
@@ -402,32 +402,32 @@ panes.main = {
 panes.core = {
 	"Classes": {
 		"Agent": {
-			"Configuration":	"classes/agent/config.html",
-			"Usage":			"classes/agent/usage.html",
+			"Configuração":	"classes/agent/config.html",
+			"Uso":			"classes/agent/usage.html",
 		},
 		"Arr":			"classes/arr.html",
 		"Asset": {
-			"Configuration":	"classes/asset/config.html",
-			"Usage":			"classes/asset/usage.html",
-			"Advanced":			"classes/asset/advanced.html"
+			"Configuração":	"classes/asset/config.html",
+			"Uso":			"classes/asset/usage.html",
+			"Avançado":			"classes/asset/advanced.html"
 		},
 		"Autoloader":	"classes/autoloader.html",
 		"Cache": {
-			"Configuration":	"classes/cache/config.html",
-			"Usage":			"classes/cache/usage.html",
-			"Advanced":			"classes/cache/advanced.html"
+			"Configuração":	"classes/cache/config.html",
+			"Uso":			"classes/cache/usage.html",
+			"Avançado":			"classes/cache/advanced.html"
 		},
 		"Cli":			"classes/cli.html",
 		"Config":		"classes/config.html",
 		"Cookie":		"classes/cookie.html",
 		"Crypt":		"classes/crypt.html",
 		"Database": {
-			"Introduction":   	  "classes/database/introduction.html",
-			"Usage":          	  "classes/database/usage.html",
+			"Introdução":   	  "classes/database/introduction.html",
+			"Uso":          	  "classes/database/usage.html",
 			"DB class":       	  "classes/database/db.html",
 			"DBUtil class":   	  "classes/database/dbutil.html",
 			"Query Building":	{
-				"Introduction":			"classes/database/qb.html",
+				"Introdução":			"classes/database/qb.html",
 				"Insert builder":	"classes/database/qb_insert.html",
 				"Select builder":	"classes/database/qb_select.html",
 				"Update builder":	"classes/database/qb_update.html",
@@ -442,9 +442,9 @@ panes.core = {
 		// "Exception":	"todo.html",
 		"Fieldset":		"classes/fieldset.html",
 		"File": {
-			"Introduction":	"classes/file/intro.html",
-			"Usage":		"classes/file/usage.html",
-			"Advanced":		"classes/file/advanced.html",
+			"Introdução":	"classes/file/intro.html",
+			"Uso":		"classes/file/usage.html",
+			"Avançado":		"classes/file/advanced.html",
 			"Handlers":		"classes/file/handlers.html",
 		},
 		"Finder":		"classes/finder.html",
@@ -461,14 +461,14 @@ panes.core = {
 		"Markdown":		"classes/markdown.html",
 		"Migrate":		"classes/migrate.html",
 		"Model_Crud": {
-			"Introduction": "classes/model_crud/introduction.html",
-			"Methods": "classes/model_crud/methods.html"
+			"Introdução": "classes/model_crud/introduction.html",
+			"Métodos": "classes/model_crud/methods.html"
 			//"Usage": "classes/model_crud/usage.html",
 		},
 		"Module":		"classes/module.html",
 		"Mongo_Db": {
-			"Introduction":	"classes/mongo/introduction.html",
-			"Methods":		"classes/mongo/methods.html"
+			"Introdução":	"classes/mongo/introduction.html",
+			"Métodos":		"classes/mongo/methods.html"
 		},
 		"Num":			"classes/num.html",
 		"Package":		"classes/package.html",
@@ -484,26 +484,26 @@ panes.core = {
 		"Router":		"classes/router.html",
 		"Security":		"classes/security.html",
 		"Session": {
-			"Configuration":	"classes/session/config.html",
-			"Usage":			"classes/session/usage.html",
-			"Advanced":			"classes/session/advanced.html"
+			"Configuração":	"classes/session/config.html",
+			"Uso":			"classes/session/usage.html",
+			"Avançado":			"classes/session/advanced.html"
 		},
 		"Str": 			"classes/str.html",
 		"Theme": {
-			"Introduction":	"classes/theme/introduction.html",
-			"Methods":	"classes/theme/methods.html",
-			"Advanced":	"classes/theme/advanced.html"
+			"Introdução":	"classes/theme/introduction.html",
+			"Métodos":	"classes/theme/methods.html",
+			"Avançado":	"classes/theme/advanced.html"
 		},
 		// "Unzip":		"todo.html", // dont do this, needs to be cleaned up. forget it exists.
 		"Upload": {
-			"Configuration":	"classes/upload/config.html",
-			"Usage":			"classes/upload/usage.html"
+			"Configuração":	"classes/upload/config.html",
+			"Uso":			"classes/upload/usage.html"
 		},
 		"Uri":			"classes/uri.html",
 		"Validation": {
-			"Introduction": "classes/validation/validation.html",
-			"Methods": "classes/validation/methods.html",
-			"Errors": "classes/validation/errors.html"
+			"Introdução": "classes/validation/validation.html",
+			"Métodos": "classes/validation/methods.html",
+			"Erros": "classes/validation/errors.html"
 		},
 		"View":			"classes/view.html"
 	}
@@ -511,7 +511,7 @@ panes.core = {
 
 panes.oil = {
 	"Oil": {
-		"Introduction":		"packages/oil/intro.html",
+		"Introdução":		"packages/oil/intro.html",
 		"Generate":			"packages/oil/generate.html",
 		"Refine":			"packages/oil/refine.html",
 		"Package":			"packages/oil/package.html",
@@ -522,16 +522,16 @@ panes.oil = {
 
 panes.auth = {
 	"Auth Package": {
-		"Introduction":		"packages/auth/intro.html",
-		"Usage":			"packages/auth/usage.html",
-		"Writing drivers":	"packages/auth/drivers.html",
+		"Introdução":		"packages/auth/intro.html",
+		"Uso":			"packages/auth/usage.html",
+		"Escrevendo drivers":	"packages/auth/drivers.html",
 		"Driver types": {
 			"Login":		"packages/auth/types/login.html",
 			"Group":		"packages/auth/types/group.html",
 			"ACL":			"packages/auth/types/acl.html"
 		},
 		"SimpleAuth": {
-			"Introduction":	"packages/auth/simpleauth/intro.html",
+			"Introdução":	"packages/auth/simpleauth/intro.html",
 			"Login":		"packages/auth/simpleauth/login.html",
 			"Groups":		"packages/auth/simpleauth/groups.html",
 			"ACL":			"packages/auth/simpleauth/acl.html"
@@ -542,7 +542,7 @@ panes.auth = {
 
 panes.email = {
 	"Email Package": {
-		"Introduction":		"packages/email/introduction.html",
+		"Introdução":		"packages/email/introduction.html",
 		"Usage":			"packages/email/usage.html",
 		"Methods":			"packages/email/methods.html"
 	}
@@ -550,11 +550,11 @@ panes.email = {
 
 panes.orm = {
 	"Orm Package": {
-		"Introduction":		"packages/orm/intro.html",
+		"Introdução":		"packages/orm/intro.html",
 		"Creating Models":	"packages/orm/creating_models.html",
 		"CRUD":				"packages/orm/crud.html",
 		"Relating Models": {
-			"Introduction":	"packages/orm/relations/intro.html",
+			"Introdução":	"packages/orm/relations/intro.html",
 			"Belongs To":	"packages/orm/relations/belongs_to.html",
 			"Has One":		"packages/orm/relations/has_one.html",
 			"Has Many":		"packages/orm/relations/has_many.html",
@@ -562,7 +562,7 @@ panes.orm = {
 		},
 		"EAV containers":		"packages/orm/eav.html",
 		"Observers": {
-			"Introduction":			"packages/orm/observers/intro.html",
+			"Introdução":			"packages/orm/observers/intro.html",
 			"Included observers":	"packages/orm/observers/included.html",
 			"Writing your own":		"packages/orm/observers/creating.html"
 		}
@@ -571,7 +571,7 @@ panes.orm = {
 
 panes.parser = {
 	"Parser Package": {
-		"Introduction":		"packages/parser/intro.html"
+		"Introdução":		"packages/parser/intro.html"
 	}
 };
 
