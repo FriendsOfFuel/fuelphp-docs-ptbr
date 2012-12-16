@@ -522,10 +522,10 @@ panes.oil = {
 
 panes.auth = {
 	"Auth Package": {
-		"Introdução":		"packages/auth/intro.html",
-		"Uso":			"packages/auth/usage.html",
+		"Introdução":			"packages/auth/intro.html",
+		"Uso":					"packages/auth/usage.html",
 		"Escrevendo drivers":	"packages/auth/drivers.html",
-		"Driver types": {
+		"Tipos de driver": {
 			"Login":		"packages/auth/types/login.html",
 			"Group":		"packages/auth/types/group.html",
 			"ACL":			"packages/auth/types/acl.html"
