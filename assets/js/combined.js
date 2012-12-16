@@ -349,47 +349,47 @@ panes.main = {
 		"Home":			"index.html",
 		"Requisitos":	"requirements.html",
 		"Licença":		"license.html",
-		"Contribuir":	"contribute.html",
+		"Contribua":	"contribute.html",
 		"Créditos":		"credits.html"
 	},
 	"Instalação": {
-		"Introduções":			"installation/instructions.html",
+		"Instruções":			"installation/instructions.html",
 		"Download":				"installation/download.html",
-		"Upgrade":				"installation/upgrade.html",
+		"Atualização":			"installation/upgrade.html",
 		"Tutoriais":			"installation/tutorials.html",
-		"Solução de Problemas":		"installation/troubleshooting.html"
+		"Solução de Problemas":	"installation/troubleshooting.html"
 	},
 	"Geral": {
 		"Classes": {
-			"Introdução":		"general/classes.html",
-			"Estendendo Core":	"general/extending_core.html"
+			"Introdução":			"general/classes.html",
+			"Estendendo o Core":	"general/extending_core.html"
 		},
 		"Padrões de Codificação":	"general/coding_standards.html",
-		"Configuração":	"general/configuration.html",
-		"Constantes":		"general/constants.html",
-		"Ambientes":		"general/environments.html",
+		"Configuração":				"general/configuration.html",
+		"Constantes":				"general/constants.html",
+		"Ambientes":				"general/environments.html",
 		"Model-View-Controller":	"general/mvc.html",
-		"Models":			"general/models.html",
-		"Views":			"general/views.html",
-		"ViewModels":		"general/viewmodels.html",
+		"Models":					"general/models.html",
+		"Views":					"general/views.html",
+		"ViewModels":				"general/viewmodels.html",
 		"Controllers": {
 			"Base" :		"general/controllers/base.html",
 			"Template":		"general/controllers/template.html",
 			"Rest":			"general/controllers/rest.html",
-			"Hybrid":		"general/controllers/hybrid.html"
+			"Híbrido":		"general/controllers/hybrid.html"
 		},
-		"Routing":			"general/routing.html",
-		"Security":			"general/security.html",
-		"Modules":			"general/modules.html",
-		"Packages":			"general/packages.html",
-		"HMVC Requests":	"general/hmvc.html",
-		"Migrations":		"general/migrations.html",
-		"Tasks":			"general/tasks.html",
-		"Unit Testing":		"general/unit_testing.html",
-		"Error handling":	"general/error.html",
-		"Profiling":		"general/profiling.html",
+		"Roteamento":			"general/routing.html",
+		"Segurança":			"general/security.html",
+		"Módulos":				"general/modules.html",
+		"Pacotes":				"general/packages.html",
+		"Requisições HMVC":		"general/hmvc.html",
+		"Migrations":			"general/migrations.html",
+		"Tasks":				"general/tasks.html",
+		"Testes Unitários":		"general/unit_testing.html",
+		"Tratamento de Erros":	"general/error.html",
+		"Profiling":			"general/profiling.html",
 	},
-	"Third party": {
+	"De terceiros": {
 		"Introdução":		"vendor/intro.html",
 		"htmLawed":			"vendor/htmlawed.html",
 		"Markdown":			"vendor/markdown.html",
@@ -409,13 +409,13 @@ panes.core = {
 		"Asset": {
 			"Configuração":	"classes/asset/config.html",
 			"Uso":			"classes/asset/usage.html",
-			"Avançado":			"classes/asset/advanced.html"
+			"Avançado":		"classes/asset/advanced.html"
 		},
 		"Autoloader":	"classes/autoloader.html",
 		"Cache": {
 			"Configuração":	"classes/cache/config.html",
 			"Uso":			"classes/cache/usage.html",
-			"Avançado":			"classes/cache/advanced.html"
+			"Avançado":		"classes/cache/advanced.html"
 		},
 		"Cli":			"classes/cli.html",
 		"Config":		"classes/config.html",
@@ -427,7 +427,7 @@ panes.core = {
 			"DB class":       	  "classes/database/db.html",
 			"DBUtil class":   	  "classes/database/dbutil.html",
 			"Query Building":	{
-				"Introdução":			"classes/database/qb.html",
+				"Introdução":		"classes/database/qb.html",
 				"Insert builder":	"classes/database/qb_insert.html",
 				"Select builder":	"classes/database/qb_select.html",
 				"Update builder":	"classes/database/qb_update.html",
@@ -443,7 +443,7 @@ panes.core = {
 		"Fieldset":		"classes/fieldset.html",
 		"File": {
 			"Introdução":	"classes/file/intro.html",
-			"Uso":		"classes/file/usage.html",
+			"Uso":			"classes/file/usage.html",
 			"Avançado":		"classes/file/advanced.html",
 			"Handlers":		"classes/file/handlers.html",
 		},
@@ -461,8 +461,8 @@ panes.core = {
 		"Markdown":		"classes/markdown.html",
 		"Migrate":		"classes/migrate.html",
 		"Model_Crud": {
-			"Introdução": "classes/model_crud/introduction.html",
-			"Métodos": "classes/model_crud/methods.html"
+			"Introdução":	"classes/model_crud/introduction.html",
+			"Métodos":		"classes/model_crud/methods.html"
 			//"Usage": "classes/model_crud/usage.html",
 		},
 		"Module":		"classes/module.html",
@@ -476,9 +476,9 @@ panes.core = {
 		"Profiler":		"classes/profiler.html",
 		"Redis":		"classes/redis.html",
 		"Request": {
-			"URI requests":		"classes/request/request.html",
-			"Curl":		"classes/request/curl.html",
-			"Soap":		"classes/request/soap.html"
+			"Requisições de URIs":		"classes/request/request.html",
+			"Curl":						"classes/request/curl.html",
+			"Soap":						"classes/request/soap.html"
 		},
 		"Response":		"classes/response.html",
 		"Router":		"classes/router.html",
@@ -486,13 +486,13 @@ panes.core = {
 		"Session": {
 			"Configuração":	"classes/session/config.html",
 			"Uso":			"classes/session/usage.html",
-			"Avançado":			"classes/session/advanced.html"
+			"Avançado":		"classes/session/advanced.html"
 		},
 		"Str": 			"classes/str.html",
 		"Theme": {
 			"Introdução":	"classes/theme/introduction.html",
-			"Métodos":	"classes/theme/methods.html",
-			"Avançado":	"classes/theme/advanced.html"
+			"Métodos":		"classes/theme/methods.html",
+			"Avançado":		"classes/theme/advanced.html"
 		},
 		// "Unzip":		"todo.html", // dont do this, needs to be cleaned up. forget it exists.
 		"Upload": {
@@ -501,9 +501,9 @@ panes.core = {
 		},
 		"Uri":			"classes/uri.html",
 		"Validation": {
-			"Introdução": "classes/validation/validation.html",
-			"Métodos": "classes/validation/methods.html",
-			"Erros": "classes/validation/errors.html"
+			"Introdução":	"classes/validation/validation.html",
+			"Métodos":		"classes/validation/methods.html",
+			"Erros":		"classes/validation/errors.html"
 		},
 		"View":			"classes/view.html"
 	}
@@ -522,10 +522,10 @@ panes.oil = {
 
 panes.auth = {
 	"Auth Package": {
-		"Introdução":		"packages/auth/intro.html",
-		"Uso":			"packages/auth/usage.html",
+		"Introdução":			"packages/auth/intro.html",
+		"Uso":					"packages/auth/usage.html",
 		"Escrevendo drivers":	"packages/auth/drivers.html",
-		"Driver types": {
+		"Tipos de driver": {
 			"Login":		"packages/auth/types/login.html",
 			"Group":		"packages/auth/types/group.html",
 			"ACL":			"packages/auth/types/acl.html"
@@ -543,28 +543,28 @@ panes.auth = {
 panes.email = {
 	"Email Package": {
 		"Introdução":		"packages/email/introduction.html",
-		"Usage":			"packages/email/usage.html",
-		"Methods":			"packages/email/methods.html"
+		"Uso":				"packages/email/usage.html",
+		"Métodos":			"packages/email/methods.html"
 	}
 };
 
 panes.orm = {
 	"Orm Package": {
-		"Introdução":		"packages/orm/intro.html",
-		"Creating Models":	"packages/orm/creating_models.html",
-		"CRUD":				"packages/orm/crud.html",
-		"Relating Models": {
+		"Introdução":			"packages/orm/intro.html",
+		"Criação de Models":	"packages/orm/creating_models.html",
+		"CRUD":					"packages/orm/crud.html",
+		"Relacionamento entre Models": {
 			"Introdução":	"packages/orm/relations/intro.html",
-			"Belongs To":	"packages/orm/relations/belongs_to.html",
-			"Has One":		"packages/orm/relations/has_one.html",
-			"Has Many":		"packages/orm/relations/has_many.html",
-			"Many to Many":	"packages/orm/relations/many_many.html"
+			"Muitos para Um":	"packages/orm/relations/belongs_to.html",
+			"Um para Um":		"packages/orm/relations/has_one.html",
+			"Um para Muitos":		"packages/orm/relations/has_many.html",
+			"Muitos para Muitos":	"packages/orm/relations/many_many.html"
 		},
 		"EAV containers":		"packages/orm/eav.html",
 		"Observers": {
-			"Introdução":			"packages/orm/observers/intro.html",
-			"Included observers":	"packages/orm/observers/included.html",
-			"Writing your own":		"packages/orm/observers/creating.html"
+			"Introdução":				"packages/orm/observers/intro.html",
+			"Observers disponíveis":	"packages/orm/observers/included.html",
+			"Criando o seu próprio":	"packages/orm/observers/creating.html"
 		}
 	}
 };
