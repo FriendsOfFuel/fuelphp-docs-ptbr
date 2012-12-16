@@ -349,47 +349,47 @@ panes.main = {
 		"Home":			"index.html",
 		"Requisitos":	"requirements.html",
 		"Licença":		"license.html",
-		"Contribuir":	"contribute.html",
+		"Contribua":	"contribute.html",
 		"Créditos":		"credits.html"
 	},
 	"Instalação": {
-		"Introduções":			"installation/instructions.html",
+		"Instruções":			"installation/instructions.html",
 		"Download":				"installation/download.html",
-		"Upgrade":				"installation/upgrade.html",
+		"Atualização":			"installation/upgrade.html",
 		"Tutoriais":			"installation/tutorials.html",
-		"Solução de Problemas":		"installation/troubleshooting.html"
+		"Solução de Problemas":	"installation/troubleshooting.html"
 	},
 	"Geral": {
 		"Classes": {
-			"Introdução":		"general/classes.html",
-			"Estendendo Core":	"general/extending_core.html"
+			"Introdução":			"general/classes.html",
+			"Estendendo o Core":	"general/extending_core.html"
 		},
 		"Padrões de Codificação":	"general/coding_standards.html",
-		"Configuração":	"general/configuration.html",
-		"Constantes":		"general/constants.html",
-		"Ambientes":		"general/environments.html",
+		"Configuração":				"general/configuration.html",
+		"Constantes":				"general/constants.html",
+		"Ambientes":				"general/environments.html",
 		"Model-View-Controller":	"general/mvc.html",
-		"Models":			"general/models.html",
-		"Views":			"general/views.html",
-		"ViewModels":		"general/viewmodels.html",
+		"Models":					"general/models.html",
+		"Views":					"general/views.html",
+		"ViewModels":				"general/viewmodels.html",
 		"Controllers": {
 			"Base" :		"general/controllers/base.html",
 			"Template":		"general/controllers/template.html",
 			"Rest":			"general/controllers/rest.html",
-			"Hybrid":		"general/controllers/hybrid.html"
+			"Híbrido":		"general/controllers/hybrid.html"
 		},
-		"Routing":			"general/routing.html",
-		"Security":			"general/security.html",
-		"Modules":			"general/modules.html",
-		"Packages":			"general/packages.html",
-		"HMVC Requests":	"general/hmvc.html",
-		"Migrations":		"general/migrations.html",
-		"Tasks":			"general/tasks.html",
-		"Unit Testing":		"general/unit_testing.html",
-		"Error handling":	"general/error.html",
-		"Profiling":		"general/profiling.html",
+		"Roteamento":			"general/routing.html",
+		"Segurança":			"general/security.html",
+		"Módulos":				"general/modules.html",
+		"Pacotes":				"general/packages.html",
+		"Requisições HMVC":		"general/hmvc.html",
+		"Migrations":			"general/migrations.html",
+		"Tasks":				"general/tasks.html",
+		"Testes Unitários":		"general/unit_testing.html",
+		"Tratamento de Erros":	"general/error.html",
+		"Profiling":			"general/profiling.html",
 	},
-	"Third party": {
+	"De terceiros": {
 		"Introdução":		"vendor/intro.html",
 		"htmLawed":			"vendor/htmlawed.html",
 		"Markdown":			"vendor/markdown.html",
