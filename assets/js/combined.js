@@ -550,21 +550,21 @@ panes.email = {
 
 panes.orm = {
 	"Orm Package": {
-		"Introdução":		"packages/orm/intro.html",
-		"Creating Models":	"packages/orm/creating_models.html",
-		"CRUD":				"packages/orm/crud.html",
-		"Relating Models": {
+		"Introdução":			"packages/orm/intro.html",
+		"Criação de Models":	"packages/orm/creating_models.html",
+		"CRUD":					"packages/orm/crud.html",
+		"Relacionamento entre Models": {
 			"Introdução":	"packages/orm/relations/intro.html",
-			"Belongs To":	"packages/orm/relations/belongs_to.html",
-			"Has One":		"packages/orm/relations/has_one.html",
-			"Has Many":		"packages/orm/relations/has_many.html",
-			"Many to Many":	"packages/orm/relations/many_many.html"
+			"Muitos para Um":	"packages/orm/relations/belongs_to.html",
+			"Um para Um":		"packages/orm/relations/has_one.html",
+			"Um para Muitos":		"packages/orm/relations/has_many.html",
+			"Muitos para Muitos":	"packages/orm/relations/many_many.html"
 		},
 		"EAV containers":		"packages/orm/eav.html",
 		"Observers": {
-			"Introdução":			"packages/orm/observers/intro.html",
-			"Included observers":	"packages/orm/observers/included.html",
-			"Writing your own":		"packages/orm/observers/creating.html"
+			"Introdução":				"packages/orm/observers/intro.html",
+			"Observers disponíveis":	"packages/orm/observers/included.html",
+			"Criando o seu próprio":	"packages/orm/observers/creating.html"
 		}
 	}
 };
