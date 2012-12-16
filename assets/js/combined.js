@@ -409,13 +409,13 @@ panes.core = {
 		"Asset": {
 			"Configuração":	"classes/asset/config.html",
 			"Uso":			"classes/asset/usage.html",
-			"Avançado":			"classes/asset/advanced.html"
+			"Avançado":		"classes/asset/advanced.html"
 		},
 		"Autoloader":	"classes/autoloader.html",
 		"Cache": {
 			"Configuração":	"classes/cache/config.html",
 			"Uso":			"classes/cache/usage.html",
-			"Avançado":			"classes/cache/advanced.html"
+			"Avançado":		"classes/cache/advanced.html"
 		},
 		"Cli":			"classes/cli.html",
 		"Config":		"classes/config.html",
@@ -427,7 +427,7 @@ panes.core = {
 			"DB class":       	  "classes/database/db.html",
 			"DBUtil class":   	  "classes/database/dbutil.html",
 			"Query Building":	{
-				"Introdução":			"classes/database/qb.html",
+				"Introdução":		"classes/database/qb.html",
 				"Insert builder":	"classes/database/qb_insert.html",
 				"Select builder":	"classes/database/qb_select.html",
 				"Update builder":	"classes/database/qb_update.html",
@@ -443,7 +443,7 @@ panes.core = {
 		"Fieldset":		"classes/fieldset.html",
 		"File": {
 			"Introdução":	"classes/file/intro.html",
-			"Uso":		"classes/file/usage.html",
+			"Uso":			"classes/file/usage.html",
 			"Avançado":		"classes/file/advanced.html",
 			"Handlers":		"classes/file/handlers.html",
 		},
@@ -461,8 +461,8 @@ panes.core = {
 		"Markdown":		"classes/markdown.html",
 		"Migrate":		"classes/migrate.html",
 		"Model_Crud": {
-			"Introdução": "classes/model_crud/introduction.html",
-			"Métodos": "classes/model_crud/methods.html"
+			"Introdução":	"classes/model_crud/introduction.html",
+			"Métodos":		"classes/model_crud/methods.html"
 			//"Usage": "classes/model_crud/usage.html",
 		},
 		"Module":		"classes/module.html",
@@ -476,9 +476,9 @@ panes.core = {
 		"Profiler":		"classes/profiler.html",
 		"Redis":		"classes/redis.html",
 		"Request": {
-			"URI requests":		"classes/request/request.html",
-			"Curl":		"classes/request/curl.html",
-			"Soap":		"classes/request/soap.html"
+			"Requisições de URIs":		"classes/request/request.html",
+			"Curl":						"classes/request/curl.html",
+			"Soap":						"classes/request/soap.html"
 		},
 		"Response":		"classes/response.html",
 		"Router":		"classes/router.html",
@@ -486,13 +486,13 @@ panes.core = {
 		"Session": {
 			"Configuração":	"classes/session/config.html",
 			"Uso":			"classes/session/usage.html",
-			"Avançado":			"classes/session/advanced.html"
+			"Avançado":		"classes/session/advanced.html"
 		},
 		"Str": 			"classes/str.html",
 		"Theme": {
 			"Introdução":	"classes/theme/introduction.html",
-			"Métodos":	"classes/theme/methods.html",
-			"Avançado":	"classes/theme/advanced.html"
+			"Métodos":		"classes/theme/methods.html",
+			"Avançado":		"classes/theme/advanced.html"
 		},
 		// "Unzip":		"todo.html", // dont do this, needs to be cleaned up. forget it exists.
 		"Upload": {
@@ -501,9 +501,9 @@ panes.core = {
 		},
 		"Uri":			"classes/uri.html",
 		"Validation": {
-			"Introdução": "classes/validation/validation.html",
-			"Métodos": "classes/validation/methods.html",
-			"Erros": "classes/validation/errors.html"
+			"Introdução":	"classes/validation/validation.html",
+			"Métodos":		"classes/validation/methods.html",
+			"Erros":		"classes/validation/errors.html"
 		},
 		"View":			"classes/view.html"
 	}
