@@ -10,7 +10,7 @@
 		var path = './';
 	</script>
 	<script src="./assets/js/combined.js"></script>
-	<title>Requirements - FuelPHP - Documentação</title>
+	<title>Requisitos - FuelPHP - Documentação</title>
 </head>
 <body>
 	<div id="container">
@@ -44,56 +44,60 @@
 
 		<div id="main">
 
-			<h2>Requirements</h2>
-			<h5 id="web_server">Web Server</h5>
+			<h2>Requisitos</h2>
+			<h5 id="web_server">Servidor Web</h5>
 			<ul>
-				<li>Any web server.  Fuel has been tested on Apache, IIS and Nginx.</li>
-				<li>Works on all major operating systems including *nix and Windows.</li>
+				<li>Qualquer servidor web. O Fuel foi testado no Apache, no IIS e no Nginx.</li>
+				<li>Funciona em todos os principais sistemas operacionais, incluindo os *nix e o Windows.</li>
 			</ul>
-			<h5 id="php_version">PHP Version</h5>
+			<h5 id="php_version">Versão do PHP</h5>
 			<ul>
-				<li>Version 5.3 or greater is required.</li>
+				<li>É necessária a versão 5.3 ou maior.</li>
 			</ul>
-			<h5 id="php_extensions">PHP Extensions</h5>
+			<h5 id="php_extensions">Extensões PHP</h5>
 			<p>
-				Fuel uses functionality that PHP defines as "extensions". To avoid any possible compatibility issues, Fuel only uses extensions that
-				are part of the PHP code as documented on the <a href="http://php.net">PHP website</a>. If extensions are used that are part of the
-				PECL repository (which need to be installed manually by a system administrator), Fuel will use them if present, and work around it if not.
+				O Fuel utiliza funcionalidades que o PHP define como "extensões". Para evitar possíveis
+				problemas de compatibilidade, o Fuel usa apenas extensões que
+				fazem parte do código do PHP, como é documentado no <a href="http://php.net">site do PHP</a>. 
+				Se forem usadas extensões que sejam parte do
+				repositório PECL (que precisam ser instaladas manualmente por um administrador do sistema), o Fuel
+				irá utilizá-las se estivem disponível, caso contrário usará uma solução alternativa.
 			</p>
-			<p>This is a list of extensions used, and the classes that use them:</p>
+			<p>Essa é a lista das extensões usadas, e das classes que as utilizam:</p>
 			<table class="config valign">
 				<tbody>
 					<tr>
-						<th class="small">Extension</th>
-						<th class="small">Used in</th>
-						<th>Comments</th>
+						<th class="small">Extensão</th>
+						<th class="small">Usada em</th>
+						<th>Comentários</th>
 					</tr>
 					<tr>
 						<td>fileinfo</td>
 						<td>Upload</td>
-						<td><a href="http://php.net/manual/en/book.fileinfo.php">Documentation</a>.<br />
-						Note that on Windows platforms, a manual installation of a DLL might be needed.</td>
+						<td><a href="http://php.net/manual/en/book.fileinfo.php">Documentação</a>.<br />
+						Observe que, em ambientes Windows, a instalação manual de uma DLL pode ser necessária.</td>
 					</tr>
 					<tr>
 						<td>mbstring</td>
 						<td>n/a</td>
-						<td><a href="http://php.net/manual/en/book.mbstring.php">Documentation</a>.<br />
-						If not present, the framework has no multibyte support. You can check the MBSTRING constant to see if your installation has multibyte support enabled.</td>
+						<td><a href="http://php.net/manual/en/book.mbstring.php">Documentação</a>.<br />
+						Se não estiver disponível, o framework não suportará multibyte. Você pode verificar a
+						constante MBSTRING para descobrir se sua instalação tem suporte habilitado a multibyte.</td>
 					</tr>
 					<tr>
 						<td>mcrypt</td>
 						<td>Crypt</td>
-						<td><a href="http://php.net/manual/en/book.mcrypt.php">Documentation</a>.<br />
-						If not present, PHPSecLib is used to emulate its functionality.</td>
+						<td><a href="http://php.net/manual/en/book.mcrypt.php">Documentação</a>.<br />
+						Se não estiver disponível, a PHPSecLib é usada para emular sua funcionalidade.</td>
 					</tr>
 				</tbody>
 			</table>
 
-			<h3 id="recommended">Recommended</h3>
+			<h3 id="recommended">Recomendações</h3>
 			<ul>
-				<li>Web Server - Apache running on *nix.</li>
-				<li>PHP Version - 5.3.2</li>
-				<li>mod_rewrite - To remove the index.php from the URL.</li>
+				<li>Servidor Web - Apache rodando em um *nix.</li>
+				<li>Versão do PHP - 5.3.2</li>
+				<li>mod_rewrite - Para remover o index.php das URLs.</li>
 				<li><a href="http://www.phpunit.de/manual/current/en/index.html">PHPUnit</a> - 3.5.12</li>
 			</ul>
 
