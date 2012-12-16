@@ -543,8 +543,8 @@ panes.auth = {
 panes.email = {
 	"Email Package": {
 		"Introdução":		"packages/email/introduction.html",
-		"Usage":			"packages/email/usage.html",
-		"Methods":			"packages/email/methods.html"
+		"Uso":				"packages/email/usage.html",
+		"Métodos":			"packages/email/methods.html"
 	}
 };
 
